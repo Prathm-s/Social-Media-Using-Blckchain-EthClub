@@ -1,0 +1,82 @@
+ul>li {
+    display: flex;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 500;
+    border-left: 2px solid rgba(0, 55, 88, 0.00);
+    list-style-type: none;
+    transition: color 0.5s;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    align-self: flex-start;
+}
+
+.badge {
+    width: 20px;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: white;
+    border-radius: 300%;
+}
+
+.menuItems>li:hover {
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+
+.menuDiv {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 55, 88, 0.08);
+    border: 1px solid lightgray;
+}
+
+.fc {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.f {
+    flex: 1;
+    display: flex;
+}
+
+.ic {
+    align-items: center;
+}
+
+.jc {
+    justify-content: space-between;
+}
+
+.profile {
+    border-radius: 20%;
+    height: 50px;
+    width: 50px;
+}
+
+.lowOP {
+    color: rgba(0, 55, 88, 0.4)
+}
+
+.comment {
+    /* max-height: 15rem; */
+    overflow-y: auto;
+    height: 0px;
+    margin-bottom: 20px;
+    transition: 0.5s height ease-in;
+}
+
+.active {
+    height: 200px;
+}
+
+.userComp {
+    margin: 0px 20px;
+}
