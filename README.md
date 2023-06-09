@@ -1,4 +1,4 @@
-﻿# Facebook 3#
+﻿# SOCIAL MEDIA USING BLOCKCHAIN ETHBCLUB WEB 3.O#
 
 # Configuration of api keys
 - Create config folder inside client/src/ 
